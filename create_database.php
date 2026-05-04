@@ -3,6 +3,7 @@ $host = '127.0.0.1';
 $dbName = 'gamehub';
 $user = 'root';
 $password = '';
+// create_database.php 
 
 try {
     $pdo = new PDO("mysql:host=$host", $user, $password, [
